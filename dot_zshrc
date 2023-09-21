@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="power10k/power10k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -102,8 +102,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/home/schlich/.local/bin:$PATH"
 
 export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
-
-. "$HOME/.asdf/asdf.sh"
 
 # append completions to fpath
 fpath=(${ASDF_DIR}/completions $fpath)
