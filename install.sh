@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-cp ~/dotfiles/powerlevel10k/* ~
+cp -a powerlevel10k/. ~/
