@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "dotbot_schema.json": "install.conf.yaml"
+    }
+}
