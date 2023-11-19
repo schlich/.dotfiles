@@ -5,10 +5,13 @@
 - link:
   ~/.zshrc:
     force: true
-    path: powerlevel10k/.zshrc
+    path: .zshrc
 
   ~/.p10k.zsh:
-    path: .local/share/
+    path: powerlevel10k/.p10k.zsh
 
   ~/.local/share/fonts:
     path: powerlevel10k/.local/share/fonts/*
+
+  ~/.config/nvim:
+    path: neovim/.config/nvim/*
