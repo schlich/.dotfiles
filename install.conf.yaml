@@ -11,6 +11,3 @@
 
   ~/.local/share/fonts:
     path: powerlevel10k/.local/share/fonts/*
-
-  ~/.config/nvim:
-    path: neovim/.config/nvim/*
