@@ -2,10 +2,10 @@
   - [git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k, Download Powerlevel10k]
 
 - link:
-  ~/.zshrc:
-    force: true
+    ~/.zshrc:
+      force: true
 
-  ~/.p10k.zsh:
+    ~/.p10k.zsh:
 
-  ~/.local/share/fonts:
-    path: powerlevel10k/.local/share/fonts/*
+    ~/.local/share/fonts:
+      path: powerlevel10k/.local/share/fonts/*
