@@ -4,10 +4,8 @@
 - link:
   ~/.zshrc:
     force: true
-    path: .zshrc
 
   ~/.p10k.zsh:
-    path: powerlevel10k/.p10k.zsh
 
   ~/.local/share/fonts:
     path: powerlevel10k/.local/share/fonts/*
