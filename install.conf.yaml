@@ -7,5 +7,6 @@
 
     ~/.p10k.zsh:
 
-    ~/.local/share/fonts:
-      path: powerlevel10k/.local/share/fonts/*
+    ~/.local/share/fonts/:
+      path: local/share/fonts/**
+      create: true
