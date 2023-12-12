@@ -1,0 +1,40 @@
+mode = "local"
+project = ""
+shell = "zsh"
+
+[dirs]
+project = []
+python = "isolated"
+data = "/home/schlich/.local/share/hatch"
+cache = "/home/schlich/.cache/hatch"
+
+[dirs.env]
+
+[projects]
+
+[publish.index]
+repo = "main"
+
+[template]
+name = "Ty Schlichenmeyer"
+email = "ty.schlich@gmail.com"
+
+[template.licenses]
+headers = true
+default = [
+    "MIT",
+]
+
+[template.plugins.default]
+tests = true
+ci = true
+src-layout = true
+
+[terminal.styles]
+info = "bold"
+success = "bold cyan"
+error = "bold red"
+warning = "bold yellow"
+waiting = "bold magenta"
+debug = "bold"
+spinner = "simpleDotsScrolling"
