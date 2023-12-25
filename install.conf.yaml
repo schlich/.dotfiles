@@ -11,5 +11,3 @@
       path: local/share/fonts/*
       create: true
       glob: true
-    
-    ~/.config/hatch/config.toml:
