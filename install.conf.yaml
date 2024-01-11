@@ -14,7 +14,7 @@
       create: true
       glob: true
 
-    ~/.oh-my-zsh/plugins/hatch/:
+    ~/.oh-my-zsh/custom/plugins/hatch/:
       path: oh-my-zsh/plugins/hatch/*
       create: true
       glob: true
