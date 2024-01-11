@@ -9,6 +9,7 @@ data = "/home/schlich/.local/share/hatch"
 cache = "/home/schlich/.cache/hatch"
 
 [dirs.env]
+virtual = ".hatch"
 
 [projects]
 
