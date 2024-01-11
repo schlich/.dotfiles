@@ -3,6 +3,10 @@
   - [git submodule update --init --recursive, Update submodules]
 
 - link:
+    ~/.zshrc:
+      create: true
+      force: true
+
     ~/.p10k.zsh:
 
     ~/.local/share/fonts/:
