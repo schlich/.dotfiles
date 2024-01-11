@@ -11,3 +11,8 @@
       path: local/share/fonts/*
       create: true
       glob: true
+
+    $ZSH_CUSTOM/plugins/hatch/:
+      path: oh-my-zsh/plugins/hatch/*
+      create: true
+      glob: true
