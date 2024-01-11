@@ -16,3 +16,8 @@
       path: oh-my-zsh/plugins/hatch/*
       create: true
       glob: true
+
+    ~/.config/hatch/:
+      path: config/hatch/*
+      create: true
+      glob: true
